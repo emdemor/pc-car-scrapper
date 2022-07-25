@@ -1,0 +1,9 @@
+name: scrapper
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip=21.3.1
+  - pip:
+      - -r requirements.txt
